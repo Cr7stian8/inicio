@@ -1,0 +1,20 @@
+.thumbnail-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .thumbnail {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+/*  */
