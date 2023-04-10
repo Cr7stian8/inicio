@@ -30,16 +30,17 @@
     cursor: pointer;
   }
 
-  .search-form .search-button {
+  .search-form .search-button{
     border: none;
     background-color: #3622e6;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
+    border-radius: 0;
     margin-left: 10px;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
   }
+
 
   .search-form .search-button:hover {
     background-color: #13058f;
