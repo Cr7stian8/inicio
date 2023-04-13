@@ -8,9 +8,9 @@ thumbnails.forEach(thumbnail => {
 });
 
 const imagensDeFundo = [
-  'assets/imgs/imagens-minimalistas/1.png',
+  'https://static.vecteezy.com/ti/vetor-gratis/p1/9169455-ceu-dourado-por-do-sol-na-costa-natureza-paisagem-vetor.jpg',
   'assets/imgs/imagens-minimalistas/2.png',
-  'assets/imgs/imagens-minimalistas/3.png',
+  'https://static.vecteezy.com/ti/vetor-gratis/p1/4865260-minimalista-nebuloso-manha-montanha-paisagem-ilustracao-vetor.jpg',
   'assets/imgs/imagens-minimalistas/4.jpeg',
   'assets/imgs/imagens-minimalistas/5.webp',
 ];
