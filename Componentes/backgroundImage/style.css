@@ -1,23 +1,25 @@
 .thumbnail-section {
-    padding-top: 10px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+  padding-top: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
-  .thumbnail {
-    width: 100px;
-    height: 70px;
-    margin: 0 10px;
-    border-radius: 10%;
-    cursor: pointer;
-  }
-  .thumbnail:hover{
-    transition: 50ms;
-    border: 2px solid white;
-  }
-  body {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
+.thumbnail {
+  width: 100px;
+  height: 70px;
+  margin: 0 10px;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

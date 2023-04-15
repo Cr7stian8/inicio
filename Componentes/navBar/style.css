@@ -41,9 +41,11 @@ nav li {
     margin: auto auto;
     cursor: pointer;
 }
-nav li img:hover{
+
+nav li img:hover {
     filter: grayscale(0.5);
-    transition: ease-in-out;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
 }
 
 nav a {
@@ -53,6 +55,7 @@ nav a {
     cursor: pointer;
     text-transform: uppercase;
 }
+
 .menu-icon {
     display: block;
     width: 40px;
@@ -67,11 +70,6 @@ nav a {
     float: right;
     transition: transform 0.6s ease;
 }
-/* Defina a classe para a rotação */
-.girando {
-    transform: rotate(90deg);
-    border-radius: 10% 10% 0 0;
-  }
 
 .menu-icon:hover {
     background-color: rgb(205, 205, 205);
@@ -82,4 +80,10 @@ nav a {
 nav.show ul {
     display: flex;
     flex-wrap: wrap;
+}
+
+/* Defina a classe para a rotação */
+.girando {
+    transform: rotate(90deg);
+    border-radius: 10% 10% 0 0;
 }
