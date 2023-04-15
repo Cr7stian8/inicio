@@ -11,7 +11,7 @@
   }
 
   .search-form input[type="search"] {
-    width: 300px;
+    width: 400px;
     height: 40px;
     border: none;
     border-bottom: 2px solid rgb(255, 255, 255);
@@ -19,7 +19,7 @@
     font-size: 16px;
     font-family: sans-serif;
     color: rgb(255, 255, 255);
-    background-color: rgba(49, 49, 49, 0.477);
+    background-color: rgba(49, 49, 49, 0.534);
     transition: all 0.3s ease-in-out;
   }
 
@@ -34,7 +34,7 @@
     background-color: #3622e6;
     width: 40px;
     height: 40px;
-    border-radius: 0;
+    border-radius: 10%;
     margin-left: 10px;
     transition: all 0.3s ease-in-out;
   }
