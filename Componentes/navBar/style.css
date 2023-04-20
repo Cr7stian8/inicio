@@ -24,7 +24,6 @@ nav {
 }
 
 nav ul {
-    width: fit-content;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -32,7 +31,7 @@ nav ul {
     animation: fadein .5s ease-in-out forwards;
     background-color: rgb(255, 255, 255);
     border-radius: 10% 0 10% 10%;
-
+    
 }
 
 nav li {

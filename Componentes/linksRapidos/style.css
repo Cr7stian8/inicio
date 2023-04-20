@@ -1,0 +1,28 @@
+/* A sessão de links deve ter uma largura de 450 */
+#sessaoLinks{
+    width: 450px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.576);
+    margin: auto auto;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+#sessaoLinks img:hover {
+    filter: grayscale(0.5);
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+#sessaoLinks img {
+    border-radius: 10px;
+}
+#sessaoLinks div{
+    display: flex;
+    align-items: center;
+    height: 50%;
+    justify-content: center;
+}
+#sessaoLinks a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
