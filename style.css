@@ -8,3 +8,7 @@ footer {
     font-size: 18px;
     display: none;
   }
+/* Remover botão de limpar em todos os inputs */
+input::-webkit-clear-button {
+  display: none;
+}

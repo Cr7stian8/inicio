@@ -13,7 +13,8 @@ searchButton.addEventListener('focus', () => {
 });
 searchButton.addEventListener('blur', () => {
     sessaoLinks.style.display = 'block';
-    thumb.style.display = 'block';
+    thumb.style.display = 'inline';
+    thumb.style.zIndex = '1';
     links.style.display = 'block';
     imgGoogle.style.transform = 'scale(1)';
     imgGoogle.style.transition = '1000ms';
