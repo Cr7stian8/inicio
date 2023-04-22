@@ -12,3 +12,6 @@ footer {
 input::-webkit-clear-button {
   display: none;
 }
+#outrosProjetos{
+  display: none;
+}

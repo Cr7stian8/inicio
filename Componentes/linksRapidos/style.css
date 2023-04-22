@@ -76,15 +76,7 @@
     color: rgb(0, 0, 0);
   }
   #outrosProjetos {
-    position: absolute;
-    top: 20px;
-    left: 40px;
-    width: fit-content;
-    height: fit-content;
+
     background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
+
   }
