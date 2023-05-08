@@ -36,7 +36,6 @@
 }
 
 #google {
-  padding-top: 150px;
   display: flex;
-  margin: auto auto;
+  margin: 150px auto 50px auto;
 }
