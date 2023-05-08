@@ -8,7 +8,7 @@ thumbnails.forEach(thumbnail => {
 });
 
 const imagensDeFundo = [
-  'assets/imgs/imagens-projetos/kroos1.png',
+  'assets/imgs/imagens-minimalistas/1.png',
   'assets/imgs/imagens-minimalistas/2.png',
   'assets/imgs/imagens-minimalistas/5.webp',
 ];
