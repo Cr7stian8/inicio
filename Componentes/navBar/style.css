@@ -8,7 +8,7 @@ nav {
     padding-top: 20px;
     box-sizing: border-box;
     margin-right: 150px;
-    
+
 }
 
 @keyframes fadein {
@@ -29,9 +29,8 @@ nav ul {
     list-style: none;
     display: none;
     animation: fadein .5s ease-in-out forwards;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.671);
     border-radius: 10% 0 10% 10%;
-
 }
 
 nav li {
