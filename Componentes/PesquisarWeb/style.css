@@ -6,7 +6,7 @@
   border-radius: 20px;
 }
 
-tbody {
+.gsc-control-wrapper-cse {
   display: flex !important;
   margin: auto auto;
   max-width: 440px;
@@ -46,8 +46,8 @@ tbody {
 }
 
 .gsc-control-cse {
-  background-color: rgba(255, 255, 255, 0) !important;
-  border: 1px solid rgba(255, 255, 255, 0) !important;
+  background-color: transparent !important;
+  border: none !important;
 }
 
 #google {
