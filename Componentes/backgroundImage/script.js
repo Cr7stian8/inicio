@@ -8,9 +8,9 @@ thumbnails.forEach(thumbnail => {
 });
 
 const imagensDeFundo = [
-  'assets/imgs/imagens-minimalistas/1.png',
-  'assets/imgs/imagens-minimalistas/2.png',
-  'assets/imgs/imagens-minimalistas/5.webp',
+  'assets/imgs/imagensBackground/1.png',
+  'assets/imgs/imagensBackground/2.png',
+  'assets/imgs/imagensBackground/3.wepb',
 ];
 
 const indiceAleatorio = Math.floor(Math.random() * imagensDeFundo.length);
