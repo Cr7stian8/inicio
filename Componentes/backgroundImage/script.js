@@ -8,9 +8,9 @@ thumbnails.forEach(thumbnail => {
 });
 
 const imagensDeFundo = [
-  'assets/imgs/imagensBackground/1.png',
-  'assets/imgs/imagensBackground/2.png',
-  'assets/imgs/imagensBackground/3.wepb',
+  'assets/imagensBackground/1.png',
+  'assets/imagensBackground/2.png',
+  'assets/imagensBackground/3.wepb',
 ];
 
 const indiceAleatorio = Math.floor(Math.random() * imagensDeFundo.length);
